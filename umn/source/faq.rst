@@ -1,40 +1,40 @@
 FAQ
 ===
 
-Question: How can I change the displayed timespan in a dashboard?
------------------------------------------------------------------
+Question: How can I filter the data for a specific timespan in a dashboard?
+---------------------------------------------------------------------------
 
-At the top right of each dashboard is a selector where you can
-configure your displayed timespan. Just click the Clock Icon. See in
-the screenshot below:
+At the top right of each dashboard you find a dropbox with a clock icon where you can set the desired timespan as illustrated in the screenshot below:
 
 .. image:: media/image27.png
 
 
-Question: How can I create my own dashboard and widgets?
---------------------------------------------------------
+Question: How can I create my own dashboard?
+--------------------------------------------
+In order to create a new custom dashboard, you click in the left menu on the dashboards-icon and click on "Create Dashboard" as illustrated below:
 
-We recommend creating a new dashboard if you want to have additional
-widgets. You can check the following documentation to get more
-information on how to create new widgets.
+.. image:: media/image34.png
+
+In the next step you can add panels and rows to the new dashboard. For comprehensive documentation please refer to the following Grafana docs:
 
 Getting started: https://grafana.com/docs/guides/getting_started/
-
 New Graphs in dashboards: https://grafana.com/docs/features/panels/graph/
-
 New Tables in dashboards: https://grafana.com/docs/features/panels/table_panel/
 
 
-Question: My widget is very crowded. How can I select a certain service?
-------------------------------------------------------------------------
+Question: My panel is very crowded. How can I select only one category?
+-----------------------------------------------------------------------
 
-Each widget can be limited to show only one of the originally
-displayed data sets by clicking the names right next to the graph. You
-can de-select the data set by clicking it again.
+By default the consumption view shows all categories which sometimes make the graphs slightly overcrowded. In order to visualise only one specific category, you need to click on the desired category on the right side of the panel.
+
+As an example, a click on "Compute" on the right side of Figure 1 will lead to a visualisiation of only this "Compute"-service as demonstrated in Figure 2.
 
 .. image:: media/image28.png
 
+Fig. 1: A panel visualising all categories
+
 .. image:: media/image29.png
+Fig. 2: A panel visualising only the category "compute"
 
 
 Question: Can I use the Dashboard when data is updated?
