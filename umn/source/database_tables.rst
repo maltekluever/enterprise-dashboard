@@ -281,7 +281,7 @@ This table gives you a list of contract-IDs for your
 payer/reseller account ID. This table is used in Payer/Reseller
 dashboards in order to access dashboards with shower query execution time.
 The initial load is slow depending on the amount of data it needs to query 
-to fill this variable. Searching for all distinct tenant IDs in
+to fill this variable. Searching for all distinct contract IDs in
 business.consumption has the same result as Business.contract, but the
 query itself will be resolved much quicker due to smaller datasets.
 
